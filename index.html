@@ -14,7 +14,7 @@
     <header class="header">
         <div class="container container--header">
             <nav class="header__nav">
-                <a class="logo" href="#">Web<span class="logo__part">Studio</span></a>
+                <a class="logo" href="./index.html">Web<span class="logo__part">Studio</span></a>
 
                 <ul class="header__list">
                     <li class="header__item header__item--current">
@@ -260,52 +260,112 @@
 
         <section class="customers">
             <h2 class="customers__title">Постоянные клиенты</h2>
-            <ul class="customers__list">
-                <li class="customers__item">
-                    <a href="#" class="customers__link">
-                        <svg class="customers__icon">
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="customers__item">
-                    <a href="#" class="customers__link">
-                        <svg class="customers__icon">
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="customers__item">
-                    <a href="#" class="customers__link">
-                        <svg class="customers__icon">
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="customers__item">
-                    <a href="#" class="customers__link">
-                        <svg class="customers__icon">
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="customers__item">
-                    <a href="#" class="customers__link">
-                        <svg class="customers__icon">
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="customers__item">
-                    <a href="#" class="customers__link">
-                        <svg class="customers__icon">
-                            <use></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+            <div class="container container--customers">
+                <ul class="customers__list">
+                    <li class="customers__item">
+                        <a href="#" class="customers__link">
+                            <svg class="customers__icon">
+                                <use href="./images/icons.svg#icon-regular-customers__ya-co"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers__item">
+                        <a href="#" class="customers__link">
+                            <svg class="customers__icon">
+                                <use href="./images/icons.svg#icon-regular-customers__tag"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers__item">
+                        <a href="#" class="customers__link">
+                            <svg class="customers__icon">
+                                <use href="./images/icons.svg#icon-regular-customers__company"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers__item">
+                        <a href="#" class="customers__link">
+                            <svg class="customers__icon">
+                                <use href="./images/icons.svg#icon-regular-customers__foster"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers__item">
+                        <a href="#" class="customers__link">
+                            <svg class="customers__icon">
+                                <use href="./images/icons.svg#icon-regular-customers__brand"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers__item">
+                        <a href="#" class="customers__link">
+                            <svg class="customers__icon">
+                                <use href="./images/icons.svg#icon-regular-customers__tagline"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
+
     </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container container--foter">
+
+            <div class="contact-us">
+                <a class="contact-us__logo" href="./index.html">Web<span class="contact-us__logo-part">Studio</span></a>
+                <address class="contact-us__address"><a class="contact-us__link"
+                        href="https://goo.gl/maps/rpVL73xpUDvcARrr8">г. Киев, пр-т Леси
+                        Украинки,
+                        26</a></address>
+
+                <ul class="contact-us__list">
+                    <li class="contact-us__item">info@example.com</li>
+                    <li class="contact-us__item">+38 099 111 11 11</li>
+                </ul>
+            </div>
+
+            <div class="connect">
+                <h3 class="connect__title">присоединяйтесь</h3>
+                <ul class="connect__list">
+                    <li class="connect__item">
+                        <svg class="connect__icon">
+                            <use href="./images/icons.svg#icon-socials-instagram"></use>
+                        </svg>
+                    </li>
+                    <li class="connect__item">
+                        <svg class="connect__icon">
+                            <use href="./images/icons.svg#icon-socials-twitter"></use>
+                        </svg>
+                    </li>
+                    <li class="connect__item">
+                        <svg class="connect__icon">
+                            <use href="./images/icons.svg#icon-socials-facebook"></use>
+                        </svg>
+                    </li>
+                    <li class="connect__item">
+                        <svg class="connect__icon">
+                            <use href="./images/icons.svg#icon-socials-linkedin"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="subscribe">
+                <h3 class="subscribe__title">Подпишитесь на рассылку</h3>
+                <div class="subscribe__container">
+                    <input class="subscribe__email" type="subscribe__email" placeholder="E-mail">
+                    <button class="subscribe__button" type="subscribe__submit">
+                        Подписаться<svg class="subscribe__icon">
+                            <use href="./images/icons.svg#icon-mailing-list__telegram"></use>
+                        </svg></button>
+                </div>
+            </form>
+
+        </div>
+    </footer>
 </body>
 
 </html>
