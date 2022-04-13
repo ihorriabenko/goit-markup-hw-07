@@ -1,0 +1,9 @@
+$colors: (
+    'main': #212121,
+    'secondary': #757575,
+    'hover': #2196F3,
+);
+
+@function getColor($key) {
+    @return map-get($colors, $key);
+}
