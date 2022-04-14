@@ -57,26 +57,31 @@
         color: getColor('secondary');
     }
 
-    &__list-inner {
+    &__link {
         display: flex;
-        justify-content: space-between;
-    }
-
-    &__item-inner {
-        display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
 
         width: 44px;
         height: 44px;
-
-        border: 1px solid transparent;
         border-radius: 50%;
+
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &__item-inner:hover {
+    &__link:hover,
+    &__link:focus {
         background-color: getColor('hover');
+    }
+
+    &__link:hover &__icon,
+    &__link:focus &__icon {
+        fill: #FFFFFF;
+    }
+
+    &__list-inner {
+        display: flex;
+        justify-content: space-between;
     }
 
     &__icon {
@@ -84,9 +89,5 @@
         height: 20px;
         fill: #AFB1B8;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    &__item-inner:hover &__icon {
-        fill: #FFFFFF;
     }
 }
