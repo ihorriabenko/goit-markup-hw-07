@@ -4,15 +4,12 @@
 @import './base/base';
 @import './utils/extends';
 // index
-@import './sections/header';
-@import './sections/hero';
-@import './sections/benefits';
-@import './sections/activity';
-@import './sections/team';
-@import './sections/customers';
-@import './sections/footer';
-// portfolio
-
-
-// transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+@import './sections-main/header';
+@import './sections-main/hero';
+@import './sections-main/benefits';
+@import './sections-main/activity';
+@import './sections-main/team';
+@import './sections-main/customers';
+@import './sections-main/footer';
+@import './sections-main/modal';
 
