@@ -329,6 +329,7 @@ body {
   border: none;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .projects__button:hover, .projects__button:focus {
@@ -611,6 +612,7 @@ body {
   color: #ffffff;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .subscribe__button:hover, .subscribe__button:focus {
