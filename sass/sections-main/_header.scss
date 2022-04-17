@@ -6,7 +6,7 @@
 
 .logo {
     @extend %logo;
-    
+
     margin-right: 93px;
 }
 
@@ -16,12 +16,13 @@
 
 .header {
     padding: 25px 0;
+    border-bottom: 1px solid #ECECEC;
 
     &__nav {
         display: flex;
         align-items: center;
     }
-    
+
     &__list {
         display: flex;
     }
@@ -43,7 +44,7 @@
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        
+
         color: getColor('main');
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -66,7 +67,7 @@
         height: 4px;
         width: 100%;
         border-radius: 2px;
-        
+
         background-color: getColor('hover');
     }
 
@@ -91,7 +92,7 @@
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        
+
         color: getColor('secondary');
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -103,7 +104,7 @@
 
     &__icon {
         margin-right: 10px;
-    
+
         width: 16px;
         height: 16px;
 
